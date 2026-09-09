@@ -1,0 +1,17 @@
+BIBLIOTECA FIUBA - REPORTE DE MULTAS
+Fecha de corte: 2026-05-04
+
+Padron   Socio              Prestamos  DiasAtraso     Multa  Estado
+--------------------------------------------------------------------
+39876    Bruno Ferrari              4          24      3600  CON_DEUDA
+41234    Ana Gomez                  4          23      3450  CON_DEUDA
+40555    Diego Ruiz                 3          42      3300  CON_DEUDA
+43310    Elena Sosa                 3          10      1500  CON_DEUDA
+42001    Carla Nunez                4           0         0  AL_DIA
+--------------------------------------------------------------------
+TOTALES                            18          99     11850
+
+TITULOS MAS PEDIDOS
+  1. Estructuras de Datos             6
+  2. Clean Code                       3
+  3. Introduction to Algorithms       3
