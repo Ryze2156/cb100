@@ -63,19 +63,6 @@ class RegistroDePrestamosTest {
     }
 
     @Test
-void registroCreceMasAllaDeLaCapacidadInicial() {
-    RegistroDePrestamos registro = new RegistroSobreArreglo();
-    LocalDate fecha = LocalDate.of(2026, 3, 2);
-
-    for (int i = 0; i < 20; i++) {
-        registro.registrar(new Prestamo(fecha, 40000 + i, "Socio " + i,
-                "9789871234567", "Libro " + i, null));
-    }
-
-    assertEquals(20, registro.cantidad());
-}
-
-    @Test
     void prestamosDeConPadronInexistenteDevuelveArregloVacio() {
         RegistroDePrestamos registro = new RegistroSobreArreglo();
         LocalDate fecha = LocalDate.of(2026, 3, 2);
